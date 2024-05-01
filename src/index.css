@@ -63,6 +63,18 @@ nav a:hover {
   flex: 1;
 }
 
+.carousel {
+  max-height: 600px;
+}
+
+.carousel-root {
+  margin: 2rem 0;
+}
+
+.thumbs-wrapper {
+  display: none;
+}
+
 .text {
 width: 70%;
 }
