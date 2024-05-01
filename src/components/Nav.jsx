@@ -15,11 +15,6 @@ export default function Nav() {
           }>
             Home
           </NavLink>,
-          <NavLink key={2} to="/about" className={({ isActive, isPending }) => 
-            isPending ? "pending" : isActive ? "active" : ""
-          }>
-            About Us
-          </NavLink>,
           <NavLink key={3} to="/camp" className={({ isActive, isPending }) => 
             isPending ? "pending" : isActive ? "active" : ""
           }>
@@ -29,6 +24,11 @@ export default function Nav() {
             isPending ? "pending" : isActive ? "active" : ""
           }>
             Preschool
+          </NavLink>,
+          <NavLink key={2} to="/about" className={({ isActive, isPending }) => 
+            isPending ? "pending" : isActive ? "active" : ""
+          }>
+            About
           </NavLink>,
           <NavLink key={5} to="/contact" className={({ isActive, isPending }) => 
             isPending ? "pending" : isActive ? "active" : ""

@@ -179,7 +179,8 @@ width: 70%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 2rem;
+  margin: 2rem 0;
+  gap: 1rem;
 }
 
 .contact-form {
@@ -223,4 +224,93 @@ width: 70%;
 #map {
   width: 350px;
   height: 350px;
+}
+
+@media screen and (max-width: 900px) {
+  .info-bar {
+    flex-wrap: wrap;
+    row-gap: 1rem;
+  }
+
+  .info {
+    width: 49%;
+  }
+
+  .middle-bar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #header-img {
+    height: 150px;
+    width: 100%;
+    margin: 0;
+  }
+
+  nav {
+    font-size: 20px;
+    gap: 1rem;
+  }
+
+  .contact-bottom {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    font-size: 16px;
+  }
+
+  .page-layout-1,
+  .page-layout-2 {
+    width: 95%;
+    margin: 0 2.5%;
+  }
+
+  .bottom {
+    flex-direction: column;
+  }
+
+  .downloads h3 {
+    font-size: 20px;
+  }
+
+  .downloads button {
+    font-size: 12px;
+  }
+
+  .contact-bottom {
+    width: 85%;
+    margin: 2rem 7.5%;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #header-img {
+    height: 100px;
+  }
+
+  nav {
+    font-size: 12px;
+  }
+
+  .page-layout-1 h2,
+  .page-layout-1 h4 {
+    font-size: 20px;
+  }
+
+  .downloads h3 {
+    font-size: 16px;
+  }
+
+  #map {
+    width: 300px;
+    height: 300px;
+  }
 }

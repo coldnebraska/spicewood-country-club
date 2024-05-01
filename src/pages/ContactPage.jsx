@@ -17,7 +17,7 @@ export default function ContactPage() {
             <p>6102 Spicewood Springs Road, Austin, TX 78759</p>
           </div>
 
-          <div className="bar"></div>
+          <div className="bar middle-bar"></div>
 
           <div className="info">
             <h4>Email:</h4>
