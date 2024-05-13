@@ -19,7 +19,7 @@ export default function Map() {
     return (
         <div id="map">
             <GoogleMapReact
-                bootstrapURLKeys={{ key: import.meta.env.VITE_API_KEY }}
+                bootstrapURLKeys={{ key: process.env.REACT_APP_API_KEY }}
                 center={location}
                 zoom={14.5}>
                 <LocationPin
