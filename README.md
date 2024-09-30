@@ -11,11 +11,13 @@ For this project, I used React to redesigned the main website of Spicewood Count
 [Credits](#credits) 
 
 ## Images
-![alt text](public/assets/readmeImages/homepage.png)  
+![alt text](src/assets/readmeImages/homepage.png)  
 
-![alt text](public/assets/readmeImages/services.png)  
+![alt text](src/assets/readmeImages/camp.png)  
 
-![alt text](public/assets/readmeImages/xpel.png)
+![alt text](src/assets/readmeImages/aboutus.png)
+
+![alt text](src/assets/readmeImages/contact.png)
 
 ## Features
 ### React Router
@@ -26,7 +28,7 @@ This redesign utilizes a modern tech stack to deliver a seamless user experience
 
 - *Frontend*: React.js, React Router, HTML, CSS, Javascript
 - *Deployment*: Netlify
-  
+
 ## License
 This application uses the [MIT LICENSE](./LICENSE), please refer to the link for more details
 
